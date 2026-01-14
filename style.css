@@ -202,6 +202,25 @@ p {
   opacity: 0.4;
   letter-spacing: 1px;
 }
+/* Secure vault link */
+.client-portal a {
+  display: inline-block;
+  padding: 18px 60px;
+  border: 1px solid var(--gold-leaf);
+  color: var(--gold-leaf);
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-size: 12px;
+  transition: all 0.4s ease;
+}
+
+/* Hover effect */
+.client-portal a:hover {
+  background: var(--gold-leaf);
+  color: var(--ny-slate);
+  box-shadow: 0 0 20px rgba(175, 148, 96, 0.4);
+}
+
 
 /* MOBILE */
 @media (max-width: 768px) {
